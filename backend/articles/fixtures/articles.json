@@ -1,0 +1,142 @@
+[
+{
+    "model": "articles.community",
+    "pk": 1,
+    "fields": {
+        "name": "공지사항"
+    }
+},
+{
+    "model": "articles.community",
+    "pk": 2,
+    "fields": {
+        "name": "자유게시판"
+    }
+},
+{
+    "model": "articles.community",
+    "pk": 3,
+    "fields": {
+        "name": "영화리뷰"
+    }
+},
+{
+    "model": "articles.community",
+    "pk": 4,
+    "fields": {
+        "name": "공포"
+    }
+},
+{
+    "model": "articles.community",
+    "pk": 5,
+    "fields": {
+        "name": "MARVEL"
+    }
+},
+{
+    "model": "articles.community",
+    "pk": 6,
+    "fields": {
+        "name": "애니메이션"
+    }
+},
+{
+    "model": "articles.community",
+    "pk": 7,
+    "fields": {
+        "name": "SF"
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "[필독] Flixmatji 공지사항",
+        "content": "1. 커뮤니티 이용 시 반말로 대화해주세요. 2. 영화 정보 관련 건의 사항은 아래 이메일로 문의 해주세요. email: flixmatji@zzang.com",
+        "created_at": "2022-05-20T04:24:00.979Z",
+        "updated_at": "2022-05-22T12:40:44.329Z",
+        "community_id": 1,
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "[필독] 자유게시판 이용 규칙",
+        "content": "이곳은 주제와 상관 없이 자유롭게 이용 가능한 게시판입니다.",
+        "created_at": "2022-05-20T04:39:26.155Z",
+        "updated_at": "2022-05-22T12:42:06.075Z",
+        "community_id": 2,
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "user": 1,
+        "title": "영화리뷰 게시판 이용 규칙",
+        "content": "영화 리뷰와 관련 없는 주제의 게시글은 해당 주제와 관련 된 게시판으로 무통보 이동 될 수 있습니다.",
+        "created_at": "2022-05-22T12:37:10.203Z",
+        "updated_at": "2022-05-22T12:45:09.439Z",
+        "community_id": 3,
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+        "user": 1,
+        "title": "공포 게시판 이용 규칙",
+        "content": "공포 영화와 관련 없는 주제의 게시글은 해당 주제와 관련 된 게시판으로 무통보 이동 될 수 있습니다.",
+        "created_at": "2022-05-22T12:44:22.529Z",
+        "updated_at": "2022-05-22T12:44:22.529Z",
+        "community_id": 4,
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 5,
+    "fields": {
+        "user": 1,
+        "title": "MARVEL 게시판 이용 규칙",
+        "content": "마블 영화와 관련 없는 주제의 게시글은 해당 주제와 관련 된 게시판으로 무통보 이동 될 수 있습니다.",
+        "created_at": "2022-05-22T12:45:45.716Z",
+        "updated_at": "2022-05-22T12:46:59.665Z",
+        "community_id": 5,
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 6,
+    "fields": {
+        "user": 1,
+        "title": "애니메이션 게시판 이용 규칙",
+        "content": "애니메이션 영화와 관련 없는 주제의 게시글은 해당 주제와 관련 된 게시판으로 무통보 이동 될 수 있습니다.",
+        "created_at": "2022-05-22T12:46:39.396Z",
+        "updated_at": "2022-05-22T12:47:12.684Z",
+        "community_id": 6,
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 7,
+    "fields": {
+        "user": 1,
+        "title": "SF 게시판 이용 규칙",
+        "content": "SF 영화와 관련 없는 주제의 게시글은 해당 주제와 관련 된 게시판으로 무통보 이동 될 수 있습니다.",
+        "created_at": "2022-05-22T12:48:54.339Z",
+        "updated_at": "2022-05-22T12:48:54.339Z",
+        "community_id": 7,
+        "like_users": []
+    }
+}
+]

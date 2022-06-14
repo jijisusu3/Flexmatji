@@ -1,0 +1,47 @@
+[
+  {
+    "model": "movies.todayrecommend",
+    "pk": 1,
+    "fields": {
+      "date": "12-24",
+      "name": "크리스마스 이브",
+      "overview": "Christmas eve, love, mistletoe, snow, winter, happy, family, Old Christmas, holy, befor christmas"
+    }
+  },
+  {
+    "model": "movies.todayrecommend",
+    "pk": 2,
+    "fields":{
+      "date": "12-25",
+      "name": "크리스마스",
+      "overview": "Christmas, love, mistletoe, snow, winter, happy, family, Old Christmas, holy"
+    }
+  },
+  {
+    "model": "movies.todayrecommend",
+    "pk": 3,
+    "fields":{
+      "date": "02-14",
+      "name": "발렌타인데이",
+      "overview": "celebration, romance, love, lover, happy, marriage, wedding, Valentines Day, valentines day, fallin love, chocolate"
+    }
+  },
+  {
+    "model": "movies.todayrecommend",
+    "pk": 4,
+    "fields":{
+      "date": "01-27",
+      "name": "유대인 대학살 국제 추모의 날",
+      "overview": "International,  Holocaust, Victims of the Holocaust, Jewish al Nazi Germany Auschwitz"
+    }
+  },
+  {
+    "model": "movies.todayrecommend",
+    "pk": 5,
+    "fields":{
+      "date": "05-27",
+      "name": "싸피 종강의 날",
+      "overview": "end a course, vacations, computer, coding, programing, good job, done well, happy, school vacation, closing ceremony"
+    }
+  }
+]
